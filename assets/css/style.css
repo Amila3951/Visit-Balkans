@@ -1,11 +1,11 @@
-/* Basic Resets - Removes default margins and padding, sets box-sizing to border-box for easier layout calculations */
+/* Basic Styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-/* General Body Styles - Sets font family, text color, minimum height, and establishes a flexbox layout for the entire page */
+/* General Body Styles */
 body {
     font-family: 'Times New Roman', sans-serif;
     color: #333;
@@ -15,15 +15,17 @@ body {
     padding-top: 70px;
 }
 
-/*Styles for headings (h1, h2, h3) */
-h1, h2, h3 {
+/* Headings Styles */
+h1,
+h2,
+h3 {
     font-family: 'Times New Roman', serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
+/* Special styling for the main heading/logo */
 h1 {
-    /* Specific styles for the main heading (logo) */
     color: brown;
     text-decoration: none;
     font-size: 30px;
@@ -38,7 +40,7 @@ h3 {
 }
 
 
-/* Header Styling - Styles the header, including background, positioning, layout, and shadow */
+/* Header */
 header {
     background-color: #f0f0f0;
     padding: 1rem;
@@ -58,19 +60,19 @@ header a {
     text-decoration: none;
 }
 
-/* Navigation Styling (desktop) - Styles the navigation menu for larger screens */
+/* Navigation Menu (Desktop) */
 #menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex; 
+    display: flex;
 }
 
 #menu li {
     margin-right: 20px;
     font-size: 20px;
 }
-
+/* Hide Navigation Toggle */
 .nav-toggle {
     display: none;
 }
@@ -90,6 +92,7 @@ nav a {
     text-decoration: none;
     color: #333;
 }
+
 /* Adds an underline to a link within the navigation bar when the user hovers their mouse over it*/
 nav a:hover {
     text-decoration: underline;
@@ -109,7 +112,7 @@ nav a:hover {
     color: white;
 }
 
-/* Styles the "Choose Your Destination" section */
+/* Styles the "Choose Your Destination" */
 #tours {
     font-size: 2.5rem;
     margin-bottom: 1rem;
@@ -146,7 +149,17 @@ nav a:hover {
     min-width: 100px;
     transition: all 0.3s ease;
 }
+/* Location Box Headings */
+#location h3 {
+    color: #000000;
+    margin-bottom: 0.5rem;
+    font-size: 30px;
+    width: 100%;
+     /* Makes the font size responsive*/
+    font-size: clamp(1rem, 2vw, 1.5rem);
+}
 
+/* Hover Effect for Location Boxes */
 #location>div:hover {
     transform: scale(1.1);
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
@@ -167,12 +180,12 @@ nav a:hover {
     margin-bottom: 3rem;
     max-height: 3.2em;
     line-height: 1.6em;
-    /* Reduced font size */
+    /* Makes the font size responsive*/
     font-size: clamp(1rem, 2vw, 1.5rem);
     text-align: center;
 }
 
-/* Sign Up Form - Styles the layout of the signup form */
+/* Sign Up Form - Styles the layout of the Sign Up form */
 #signup-form {
     display: grid;
     grid-template-rows: auto 1fr auto;
@@ -205,8 +218,8 @@ nav a:hover {
     font-size: 16px;
     border-radius: 3px;
     cursor: pointer;
-    display: block;        
-    margin: 1.5rem auto;    
+    display: block;
+    margin: 1.5rem auto;
 }
 
 /* Footer (Social Media Networks) */
@@ -229,4 +242,36 @@ footer {
 #social-networks i {
     font-size: 24px;
     color: #333;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+
+    /* Adjust navigation menu for mobile */
+    #menu {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #menu li {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    #location {
+        grid-template-columns: 1fr
+    }
+
+    #social-networks li {
+        margin: 0 10px;
+    }
+
+    #social-networks i {
+        font-size: 20px;
+    }
+
+    body {
+        padding-top: 50px;
+    }
 }
