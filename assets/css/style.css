@@ -118,3 +118,30 @@ nav a:hover {
     background-color: #fff;
 }
 
+/* Styles the section containing destination informations  */
+#location {
+    background-image: url("/assets/images/destinations.cover.jpg");
+    background-size: cover;
+    background-position: center;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Location Boxes - Styles the individual destination boxes */
+#location>div {
+    background-color: rgba(138, 98, 57, 0.8);
+    color: #000000;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    font-size: 20px;
+    overflow: auto;
+    min-width: 100px;
+}
