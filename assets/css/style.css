@@ -15,10 +15,34 @@ body {
     padding-top: 70px;
 }
 
+/*Styles for headings (h1, h2, h3) */
+h1, h2, h3 {
+    font-family: 'Times New Roman', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    /* Specific styles for the main heading (logo) */
+    color: brown;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    font-size: 1.1rem;
+}
+
+
 /* Header Styling - Styles the header, including background, positioning, layout, and shadow */
 header {
     background-color: #f0f0f0;
     padding: 1rem;
+    /** Fixed position (Inpsired by Love Running Project)*/
     position: fixed;
     top: 0;
     left: 0;
@@ -30,26 +54,22 @@ header {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-
 header a {
     text-decoration: none;
 }
 
 /* Navigation Styling (desktop) - Styles the navigation menu for larger screens */
-
 #menu {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-   
+    display: flex; 
 }
 
 #menu li {
     margin-right: 20px;
     font-size: 20px;
 }
-
 
 .nav-toggle {
     display: none;
