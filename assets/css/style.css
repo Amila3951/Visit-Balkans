@@ -145,3 +145,60 @@ nav a:hover {
     overflow: auto;
     min-width: 100px;
 }
+
+/* Sign Up Section */
+#signup {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 2rem;
+    border-radius: 10px;
+    margin: 2rem auto;
+    width: 80%;
+    max-width: 800px;
+}
+
+#signup h2 {
+    color: #333;
+    margin-bottom: 3rem;
+    max-height: 3.2em;
+    line-height: 1.6em;
+    /* Reduced font size */
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    text-align: center;
+}
+
+/* Sign Up Form - Styles the layout of the signup form */
+#signup-form {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 1rem;
+}
+
+/* Sign Up Form Labels */
+#signup-form label {
+    margin-bottom: 1rem;
+}
+
+/* Sign Up Form Inputs */
+#signup-form input[type="email"],
+#signup-form input[type="password"] {
+    width: 100%;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+
+/* Join Button */
+.join-button {
+    margin-top: 1.5rem;
+    background-color: rgb(139, 43, 43);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: block;        
+    margin: 1.5rem auto;    
+}
