@@ -82,7 +82,7 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-
+/* Arranges list items horizontally (side-by-side) on larger devices */
 nav li {
     display: inline;
     margin-right: 20px;
@@ -224,7 +224,9 @@ nav a:hover {
 /* Images */
 #photos {
     display: grid;
+    /* Five colums on larger devices */
     grid-template-columns: repeat(5, 1fr); 
+    /* Two rows on larger devices */
     grid-template-rows: repeat(2, 1fr);   
     gap: 10px;
 }
@@ -265,7 +267,7 @@ footer {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
 
-    /* Adjust navigation menu for mobile */
+    /* Navigation menu is in column on smaller devices */
     #menu {
         flex-direction: column;
         text-align: center;
@@ -291,5 +293,12 @@ footer {
 
     body {
         padding-top: 50px;
+    }
+    
+    #photos {
+        /* Two colums on smaller devices */
+        grid-template-columns: repeat(2, 1fr); 
+        /* Five rows on smaller devices*/
+        grid-template-rows: repeat(5, 1fr);   
     }
 }
