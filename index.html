@@ -4,15 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta description and keywords -->
     <meta name="description"
         content="Plan your dream Balkan vacation today! Discover unique destinations, off-the-beaten-path adventures, and affordable travel options. Visit Balkans - your gateway to the heart of Europe.">
     <meta name="keywords"
         content="travel, travel agency, travel page, Balkans, Bosnia and Herzegovina, Croatia, Serbia, visit Balkans, vacation, trip, visit Balkan, Balkan travel, Balkan tour, Balkan trip, Balkan vacation, Balkan holiday, Balkan adventure, Balkan destinations, Balkan countries, Balkan tourism, things to do in the Balkans">
+    <!-- Title -->
     <title>Visit Balkans</title>
     <!-- Fav Icon-->
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
-    <link rel="stylesheet" href="assets/css/style.css">
+<!-- Connect HTML and CSS -->    
+<link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -24,6 +27,7 @@
         <nav>
             <ul id="menu">
                 <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#signup">Sign Up</a></li>
                 <li><a href="gallery.html">Balkan Highlights <i class="fa-regular fa-images"></i></a></li>
             </ul>
         </nav>
@@ -58,7 +62,21 @@
                 </div>
             </div>
         </section>
+        <section id="signup">
+            <h2>Stay Updated on Balkan Adventures <i class="fa-brands fa-gratipay"></i></h2>
+            <div id="signup-form">
+                <form action="process_signup.php" method="post">
+                    <label for="email">E-mail Address:</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
 
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+
+                    <button type="submit" class="join-button">Sign Up</button>
+                </form>
+            </div>
+        </section>
+    </main>
         <footer>
             <ul id="social-networks">
             </ul>
