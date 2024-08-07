@@ -1,0 +1,76 @@
+/* Basic Resets - Removes default margins and padding, sets box-sizing to border-box for easier layout calculations */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles - Sets font family, text color, minimum height, and establishes a flexbox layout for the entire page */
+body {
+    font-family: 'Times New Roman', sans-serif;
+    color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+/* Header Styling - Styles the header, including background, positioning, layout, and shadow */
+header {
+    background-color: #f0f0f0;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+/* Navigation Styling (desktop) - Styles the navigation menu for larger screens */
+
+#menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+   
+}
+
+#menu li {
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+
+.nav-toggle {
+    display: none;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
