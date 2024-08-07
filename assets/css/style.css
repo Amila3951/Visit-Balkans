@@ -90,7 +90,31 @@ nav a {
     text-decoration: none;
     color: #333;
 }
-
+/* Adds an underline to a link within the navigation bar when the user hovers their mouse over it*/
 nav a:hover {
     text-decoration: underline;
 }
+
+/* Main Section - Styles the main  section with a background image, text, and layout */
+#travel {
+    background-image: url("/assets/images/travelcover.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+/* Styles the "Choose Your Destination" section */
+#tours {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding: 3rem 1rem;
+    background-color: #fff;
+}
+
