@@ -229,6 +229,7 @@ nav a:hover {
     /* Two rows on larger devices */
     grid-template-rows: repeat(2, 1fr);   
     gap: 10px;
+    margin-top: 70px;
 }
 
 #photos img {
@@ -291,14 +292,17 @@ footer {
         font-size: 20px;
     }
 
-    body {
-        padding-top: 50px;
-    }
-    
     #photos {
         /* Two colums on smaller devices */
         grid-template-columns: repeat(2, 1fr); 
         /* Five rows on smaller devices*/
-        grid-template-rows: repeat(5, 1fr);   
+        grid-template-rows: repeat(5, 1fr);
+        margin-top: 50px;   
     }
+
+    body {
+        padding-top: 50px;
+    }
+
+   
 }
