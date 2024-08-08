@@ -87,7 +87,7 @@ nav a:hover {
 
 /* Main Section - Styles the main  section with a background image, text, and layout */
 #travel {
-    background-image: url("/assets/images/travel.cover.webp");
+    background-image: url("../images/travel.cover.webp");
     background-size: cover;
     background-position: center;
     min-height: 600px;
@@ -110,7 +110,7 @@ nav a:hover {
 
 /* Styles the section containing destination informations  */
 #location {
-    background-image: url("/assets/images/destinations.cover.webp");
+    background-image: url("../images/destinations.cover.webp");
     background-size: cover;
     background-position: center;
     color: rgb(0, 0, 0);
