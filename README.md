@@ -1,131 +1,205 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# VISIT BALKANS
+Embark on an unforgettable journey through the heart of Europe with "Visit Balkans"! Explore a captivating blend of rich history, diverse cultures, stunning landscapes, and warm hospitality.
 
-Welcome Amila Beganovic,
+### Discover hidden gems: 
+Uncover ancient ruins, charming medieval towns, and vibrant cities brimming with life. Immerse yourself in the unique traditions and customs of each Balkan country, from Croatia's stunning coastline to the mountainous beauty of Serbia and Bosnia´s captivating cultural heritage.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+### Food
+Indulge your taste buds: Savor the flavors of the Balkans with its delicious cuisine, a fusion of Mediterranean, Turkish, and Slavic influences. Feast on hearty grilled meats, fresh seafood, savory pastries, and flavorful local wines.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+### Adventure awaits:  
+Whether you're seeking outdoor thrills or tranquil escapes, the Balkans have it all. Hike through pristine national parks, relax on idyllic beaches, ski down snowy slopes, or explore picturesque river valleys.
 
-## Gitpod Reminders
+### Experience warm hospitality: 
+The Balkans are renowned for their welcoming locals who are eager to share their traditions and stories. Engage with friendly villagers, learn about their crafts, and create lasting memories.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+### Off-the-beaten-path wonders: 
+Escape the crowds and discover the Balkans' hidden treasures. Wander through picturesque villages, explore ancient monasteries, and soak in the natural beauty of unspoiled landscapes.
 
-`python3 -m http.server`
+**Your Balkan adventure starts here!  Let "Visit Balkans" be your guide to this enchanting region, where history, culture, and nature intertwine to create an unforgettable travel experience. Start planning your dream Balkan trip today!**
 
-A blue button should appear to click: _Make Public_,
+## User goals
+Visit Balkans is for all adventurous travelers seeking unique experiences, history and culture enthusiasts, foodies, nature lovers, budget-conscious explorers, and those who crave authentic, off-the-beaten-path adventures.
 
-Another blue button should appear to click: _Open Browser_.
+- **Experience cultural diversity**: Explore the unique cultures, traditions, and customs of different Balkan countries.
+- **Discover historical sites**: Visit ancient ruins, medieval towns, and other historical landmarks.
+- **Enjoy natural beauty**: Hike through scenic mountains, relax on picturesque beaches, or explore national parks.
+- **Taste local cuisine**: Sample the delicious food and drinks of the region, from hearty stews to fresh seafood.
+- **Meet friendly locals**: Interact with welcoming people and learn about their way of life.
+- **Have an affordable vacation**: Find budget-friendly accommodations, transportation, and activities.
+- **Travel off the beaten path**: Discover hidden gems and less touristy destinations.
+- **Experience adventure and outdoor activities**: Go hiking, rafting, kayaking, or participate in other adventure sports.
+- **History buffs**: Explore ancient ruins, medieval castles, and Ottoman-era architecture. Visit historical museums and learn about the region's complex past.
+- **Foodies**: Sample traditional Balkan dishes, attend food festivals, and take cooking classes. Visit local markets and wineries.
+- **Nature lovers**: Hike in the Dinaric Alps, explore Plitvice Lakes National Park, or relax on the Adriatic coast. Visit waterfalls, caves, and other natural wonders.
+- **Adventure seekers**: Go rafting on the Tara River, try paragliding, rock climbing, or other adventure sports.
+- **Learn about the region's recent history**: Understand the events of the 1990s and their impact on the region.
+- **Learn a new language**: Practice speaking the local language (e.g., Croatian, Serbian, Albanian) or learn basic phrases.
+- **Relax and rejuvenate**: Enjoy the slower pace of life in the Balkans and disconnect from the stresses of everyday life.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
+## Features
+- **Am I responsive**
+  - Visit Balkans is fully responsive and optimized for a seamless browsing experience on all devices, from smartphones to tablets to desktops.
 
-A blue button should appear to click: _Make Public_,
+![Am I Responsive](assets/images/amiresponsive.png)
 
-Another blue button should appear to click: _Open Browser_.
+### First page / Home page
+This is the homepage for a travel website called "Visit Balkans." It aims to promote tourism in the Balkan region, specifically Bosnia and Herzegovina, Croatia, and Serbia.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+![First page / Home page](assets/images/homepage.png)
 
-To log into the Heroku toolbelt CLI:
+## Layout and Content
+### Header
+The header features a sleek navigation menu with links to "Home, "Sign Up" and "Balkan Highlights". Upon hovering over each link, a subtle underline effect gracefully appears, enhancing the user experience and guiding them towards their desired section of the website.
+- A title ("Visit Balkans") that links back to the homepage.
+- A navigation menu with links to:
+  - **Home**: The current page.
+  - **Sign Up**: The "Sign Up" link in the navigation menu is designed to take the user to the signup section within the same webpage. When clicked, it will automatically scroll the page down to the section where the signup form is located, allowing the user to quickly access and complete the form without having to manually scroll through the page.
+  - **Balkan Highlights**: The "Balkan Highlights" link in the navigation menu is a hyperlink that, when clicked, will take the user to a new webpage called "gallery.html". This page is expected to contain a collection of images showcasing the beauty and diversity of the Balkan region.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+The header, featuring the logo and navigation menu, remains fixed at the top of the screen throughout the user's scrolling journey, ensuring easy access and navigation. This design choice is inspired by the Love Running project's emphasis on user-friendly interfaces and intuitive navigation.
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+![Header](assets/images/header.png)
 
-### Connecting your Mongo database
+**Responsive Header:**
+On smaller screens (typically below 768px width), the header layout changes to a vertical arrangement. This ensures better usability on devices with limited screen space. The elements within the header (title, "Home", "Sign Up" and "Balkan Highlights") will stack in a single column, one below the other.
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+![Responsive Header](assets/images/responsiveheader.png)
 
-------
+### Main Content
+- **Travel Section (Image)**: This section likely features a large background image showcasing the essence of travel, with visuals of passports, airplanes, maps, and other iconic symbols that evoke the spirit of adventure and exploration.
 
-## Release History
+![Travel Image](assets/images/travelimage.png)
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- **Destinations Section**
+  - A heading ("Choose Your Destination") with a location icon.
+  - Three featured tour packages: 
+Each package showcases a captivating Balkan destination (Bosnia and Herzegovina, Croatia, or Serbia), offering a glimpse into a carefully curated itinerary with highlights of key locations, travel dates, duration, and cost per person. 
+  - Engage with the tours through an interactive hover effect, where each package subtly expands upon mouseover, inviting you to delve deeper into the details of your dream Balkan adventure.
 
-**June 18, 2024,** Add Mongo back into template
+![Destinations](assets/images/destinations.png)
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+- **Signup Section**:
+  - Heading: An engaging headline encourages users to stay informed about the latest Balkan adventures, special offers, and travel tips.
+  - Signup Form: A user-friendly form includes fields for:
+     - Email Address: This field prompts users to enter their email address and offers autofill suggestions based on previously saved email addresses in their browser. It also includes validation to ensure the email format is correct (i.e., contains "@"). If an invalid email is entered, an error message (e.g., "Please enter a valid email address") is displayed below the field.
+     - Password: This field requests users to create a password for their account. If left empty, an error message (e.g., "Please enter a password") appears below the field.
+     - "Sign Up" Button: A visually prominent button enables users to submit the form. Upon clicking, if any required fields are not filled in correctly, an overall error message (e.g., "Please fill in all required fields") is displayed at the top of the form, and the relevant field-specific error messages are shown.
 
-**May 28 2024:** Fix Mongo and Links installs
+![Destinations](assets/images/signupform.png)
 
-**April 26 2024:** Update node version to 16
+- **Footer**: Social media icons linking to the website's pages on Facebook, Instagram, Twitter, and YouTube. (Inspired by the Love Running project.)
 
-**September 20 2023:** Update Python version to 3.9.17.
+![Social Media Network](assets/images/socialmediafooter.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+## Balkan Highlights
+This page showcases the stunning beauty and diversity of the Balkan region through a curated collection of photographs captured in Bosnia and Herzegovina, Croatia, and Serbia.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- **Navigation Bar**:
+  - The navigation bar prominently displays the page title ("Visit Balkans").
+  - A "Home" link allows seamless return to the main website, where users can find the "Sign Up" option for subscribing to updates and offers.
+  - The navigation bar is fixed at the top of the screen for easy access while scrolling. (Inspired by Love Running Project).
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  ![Balkan Highlights](assets/images/balkanhighlights.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+- **Responsive Design**:
+  - On larger screens (desktops/tablets), the image gallery is presented in two rows of five images each.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+   ![Images on larger screens](assets/images/imageslargerscreens.png)
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - On smaller screens (mobile devices), the gallery adapts to a vertical layout with five rows of two images each.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+      ![Images on smaller screens](assets/images/imagessmallerscreens.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+- **Interactive Hover Effect**:
+Hovering over an image triggers a subtle scaling effect, making the image slightly larger and creating a visual cue for interactivity.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+![Images Hover Effect](assets/images/imageshover.png)
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+- **Footer**:
+The footer includes links to the website's social media profiles, encouraging engagement and community building.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+![Social Media Network](assets/images/socialmediafooter.png)
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### **How to Use**
+1. Access the "Balkan Highlights" page from the main website's navigation menu.
+2. Explore the gallery by scrolling through the images.
+3. Hover over images to reveal a subtle enlargement effect.
+4. Click on social media icons in the footer to connect with the "Visit Balkans" community.
+5. Use the "Home" link in the navigation bar to return to the main website, where you can find the "Sign Up" option to subscribe to updates and offers.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Major Bugs & Fixes
+1. **Images**
+   - **Initial Lighthouse Performance Score**: 52 (Poor)
+   - **Issue**: Large image sizes were significantly impacting page load times.
+   - **Solution**: Image optimization was performed using ShortPixel and TinyPNG to reduce file sizes without sacrificing visual quality. This resulted in a substantial improvement in the Lighthouse performance score.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+## Validation
+Through the use of various tools and validators, a well-designed site that meets all web standards has been achieved.
 
-------
+### Lighthouse
+The site has successfully met the performance, accessibility, best practices, and SEO criteria set by Lighthouse.
 
-## FAQ about the uptime script
+- **Home page**: Achieved perfect scores (100) across all categories: Performance, Accessibility, Best Practices, and SEO.
 
-**Why have you added this script?**
+![Lighthouse Home Page](assets/images/lighthousehomepage.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+- **Balkan Highlights page**: Also achieved perfect scores (100) in Accessibility, Best Practices, and SEO, with a near-perfect Performance score of 98.
 
-**How will this affect me?**
+![Lighthouse Balkan Highlights page](assets/images/lighthousegallery.png)
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+### HTML Validation
+- The HTML code was validated to ensure compliance with web standards
+- Both index.html and gallery.html have been validated using an HTML validator and are free of errors, ensuring clean and standards - compliant code.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+![HTML Validator Home page](assets/images/htmlvalidatorhomepaga.png)
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+![HTML Validator Gallery page](assets/images/htmlvalidatorgallerypage.png)
 
-**So….?**
+### CSS Validation
+- CSS code was validated to ensure compliance with web standards.
+- No errors or warnings.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+![CSS Validator](assets/images/cssvalidator.png)
 
-**Can I opt out?**
+## Technology used
+- **HTML**: Structure of the web pages.
+- **CSS**: Styling of the web pages, including responsive design for various screen sizes.
+- **Favicon**: Globe icon for the website.
+- **Image Optimization**: To enhance loading speed and overall user experience, images on this website have been optimized using image compression techniques. This reduces file sizes without significantly compromising visual quality.
+- **HTML Validator**: A tool used to check the HTML code for errors, ensuring it adheres to web standards and best practices. This helps maintain cross-browser compatibility and accessibility.
+- **CSS Validator**: A tool that analyzes the CSS code for syntax errors and potential issues. It ensures your styles are valid and optimized, contributing to a smooth user experience across different browsers.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+## Deployment
+- The site was deployed using GitHub Pages.
+- The repository can be found at: https://github.com/Amila3951/Visit-Balkans.git
+- The deployed site can be found at: https://8000-amila3951-visitbalkans-6k6niljqsfh.ws-eu115.gitpod.io/index.html
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### GitHub Deployment
+1. Login or Sign Up to GitHub.
+2. Open the project repository.
+3. Navigate to "Settings" on the navigation bar under the repository title.
+4. Click on "Pages" in the left-hand navigation panel.
+5. Under "Source", choose which branch to deploy (Main or Master).
+6. Choose which folder to deploy from, usually "/root".
+7. Click "Save", then wait for the page to be deployed.
+8. The URL is displayed above "Source".
 
-**Anything more?**
+### Meta Information
+- **Description**: "Plan your dream Balkan vacation today! Discover unique destinations, off-the-beaten-path adventures, and affordable travel options. Visit Balkans - your gateway to the heart of Europe."
+- **Keywords**: "travel, travel agency, travel page, Balkans, Bosnia and Herzegovina, Croatia, Serbia, visit Balkans, vacation, trip, visit Balkan, Balkan travel, Balkan tour, Balkan trip, Balkan vacation, Balkan holiday, Balkan adventure, Balkan destinations, Balkan countries, Balkan tourism, things to do in the Balkans"
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Favicon
+- [Favicon](https://www.flaticon.com/search?word=globe)
 
----
+#### Images
+- [iStock](https://www.istockphoto.com/de)
+- [Freepic](https://www.freepik.com/)
+- [Pinterest](https://www.pinterest.com/)
 
-Happy coding!
+**Image Optimization**:
+- [Short Pixel](https://shortpixel.com/)
+- [TinyPNG](https://tinypng.com/)
+
+## Credits
+- The fixed header and social media footer design were inspired by the **Love Running Project**.
