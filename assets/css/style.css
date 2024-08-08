@@ -12,7 +12,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-   
 }
 
 /* Headings Styles */
@@ -38,7 +37,6 @@ h2 {
 h3 {
     font-size: 1.1rem;
 }
-
 
 /* Header */
 header {
@@ -77,17 +75,6 @@ header a {
     display: none;
 }
 
-nav ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-/* Arranges list items horizontally (side-by-side) on larger devices */
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
-
 nav a {
     text-decoration: none;
     color: #333;
@@ -98,9 +85,9 @@ nav a:hover {
     text-decoration: underline;
 }
 
-/* Main Section - Styles the main  section with a background image, text, and layout */
+/* Main Section - Styles the main  section with a background image, text, and layout */
 #travel {
-    background-image: url("/assets/images/travelcover.jpg");
+    background-image: url("/assets/images/travel.cover.webp");
     background-size: cover;
     background-position: center;
     min-height: 600px;
@@ -121,9 +108,9 @@ nav a:hover {
     background-color: #fff;
 }
 
-/* Styles the section containing destination informations  */
+/* Styles the section containing destination informations  */
 #location {
-    background-image: url("/assets/images/destinations.cover.jpg");
+    background-image: url("/assets/images/destinations.cover.webp");
     background-size: cover;
     background-position: center;
     color: rgb(0, 0, 0);
@@ -149,13 +136,14 @@ nav a:hover {
     min-width: 100px;
     transition: all 0.3s ease;
 }
+
 /* Location Box Headings */
 #location h3 {
     color: #000000;
     margin-bottom: 0.5rem;
     font-size: 30px;
     width: 100%;
-     /* Makes the font size responsive*/
+    /* Makes the font size responsive*/
     font-size: clamp(1rem, 2vw, 1.5rem);
 }
 
@@ -221,22 +209,24 @@ nav a:hover {
     display: block;
     margin: 1.5rem auto;
 }
+
 /* Images */
 #photos {
     display: grid;
     /* Five colums on larger devices */
-    grid-template-columns: repeat(5, 1fr); 
+    grid-template-columns: repeat(5, 1fr);
     /* Two rows on larger devices */
-    grid-template-rows: repeat(2, 1fr);   
+    grid-template-rows: repeat(2, 1fr);
     gap: 10px;
 }
 
 #photos img {
-    width: 100%; 
-    height: 100%; 
+    width: 100%;
+    height: 100%;
     object-fit: cover;
     transition: transform 0.3s ease;
 }
+
 /* Hover Effect on Images*/
 #photos img:hover {
     transform: scale(1.1);
@@ -267,24 +257,24 @@ footer {
 /* Media Queries for Responsiveness */
 @media (max-width: 768px) {
     header {
-        flex-direction: column; 
-        align-items: center;   
-        text-align: center;    
-        padding: 1rem;   
-      }
-    
-      #menu {
-        width: 100%;          
-        margin-top: 10px; 
         flex-direction: column;
-    }   
-    
-      #menu li {
-        display: block;      
-        margin: 5px 0;        
-        font-size: 18px;     
+        align-items: center;
         text-align: center;
-      }
+        padding: 1rem;
+    }
+
+    #menu {
+        width: 100%;
+        margin-top: 10px;
+        flex-direction: column;
+    }
+
+    #menu li {
+        display: block;
+        margin: 5px 0;
+        font-size: 18px;
+        text-align: center;
+    }
 
     #location {
         grid-template-columns: 1fr
@@ -292,9 +282,9 @@ footer {
 
     #photos {
         /* Two colums on smaller devices */
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         /* Five rows on smaller devices*/
-        grid-template-rows: repeat(5, 1fr); 
+        grid-template-rows: repeat(5, 1fr);
         padding-top: 8.5rem;
     }
 
@@ -305,7 +295,4 @@ footer {
     #social-networks i {
         font-size: 20px;
     }
-
-    
-      
 }
