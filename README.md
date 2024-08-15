@@ -121,11 +121,7 @@ The site has successfully met the performance, accessibility, best practices, an
 
 - **Home page**: Achieved perfect scores (100) across all categories: Performance, Accessibility, Best Practices, and SEO.
 
-![Lighthouse Home Page](assets/images/lighthousehomepage.png)
-
 - **Balkan Highlights page**: Also achieved perfect scores (100) in Accessibility, Best Practices, and SEO, with a near - perfect Performance score of 98.
-
-![Lighthouse Balkan Highlights page](assets/images/lighthousegallery.png)
 
 ### HTML Validation
 
