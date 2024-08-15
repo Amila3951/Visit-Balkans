@@ -152,7 +152,7 @@ The site has successfully met the performance, accessibility, best practices, an
 
 - The site was deployed using GitHub Pages.
 - The repository can be found at: <https://github.com/Amila3951/Visit-Balkans.git>
-- The deployed site can be found at: <https://8000-amila3951-visitbalkans-6k6niljqsfh.ws-eu115.gitpod.io/index.html>
+- The deployed site can be found at: <https://amila3951.github.io/Visit-Balkans/>
 
 ### GitHub Deployment
 
